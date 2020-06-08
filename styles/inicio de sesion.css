@@ -1,0 +1,50 @@
+html {
+    background-color: white;
+    width: 53%;
+    height: 100%;
+    border:black solid 0.1px;
+    margin-left: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    header{
+    margin-top: 20px;
+    text-align: center;
+    
+    }
+    
+    header img{
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        margin-right: 10px;
+        justify-content: space-between;
+        
+    }
+    
+    header nav {
+    
+        display: inline-block;
+       text-align: right;
+    }
+    
+    header nav li{
+        text-align: right;
+        display: inline-block;
+        color: black;
+    }
+    header a:hover{
+       background-color:aliceblue;
+       transition: 300ms;
+    }
+form{
+    text-align: center;
+    background-color:skyblue ;
+    margin-top: 60px;
+    padding:10px;
+    height: 200px;
+    justify-content: left;
+    margin-right: 10px;
+    margin: 10px;
+}
