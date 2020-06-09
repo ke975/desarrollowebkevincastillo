@@ -24,7 +24,7 @@ html {
     }
     
     header nav {
-    
+  
         display: inline-block;
        text-align: right;
     }
@@ -33,6 +33,7 @@ html {
         text-align: right;
         display: inline-block;
         color: black;
+          padding-right: 3px;
     }
     header a:hover{
        background-color:aliceblue;

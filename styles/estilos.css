@@ -1,12 +1,13 @@
 *{
     margin: 0px;
+    padding: 0px;
 }
 
-html {
+html{
     background-color: aliceblue;
     width: 53%;
     height: 100%;
-    border:black solid 0.1px;
+    border:grey solid 1px;
     margin-left: 220px;
     margin-top: 20px;
     margin-bottom: 20px;
