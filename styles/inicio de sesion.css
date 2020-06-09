@@ -1,4 +1,4 @@
-html {
+body{
     background-color: white;
     width: 53%;
     height: 100%;
@@ -39,15 +39,90 @@ html {
        background-color:aliceblue;
        transition: 300ms;
     }
+ #login{
+
+    height: 70px;
+    width: 70px;
+    
+    margin-left: 110px;
+    margin-top: 20px;
+ }
 form{
+ color: white;
+   
+   border-radius: 30px;
+    margin-left: 250px;
+    height: 500px;
+    width: 350px;
+  
+   
+   background:url(https://lh3.googleusercontent.com/proxy/x44oktzd7MGQS21PMuCQdYH3GWQq143sZ35NbBd7rfblKZVOwCfEEHNc1q7eJj6EZK3HQqxxJzj7SHR4IQbAR9BL2AyA_Z-37Nb_iaAE)no-repeat;
+background-color: khaki;
+    
+}
+
+.input{
+    border-radius: 20px;
     text-align: center;
-    background-color:skyblue ;
-    margin-top: 60px;
-    padding:10px;
-    height: 200px;
-    justify-content: left;
-    margin-right: 10px;
-    margin: 10px;
+ margin-left: 20px;
+ height: 20px;
+    
+}
+
+.input1{
+
+border-radius:20px;
+height: 20px;
+text-align: center;
+}
+
+#esquece{
+    display: grid;
+    margin-left:80px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.input2{
+ margin-left: 100px;
+  border-radius: 20px;
+  background-color: rgb(12, 246, 12);
+  width: 100px;
+}
+
+#email{
+  
+}
+
+
+
+footer{
+    background-color: cyan;
+margin-top: 155px;
+    width: 100%;
+    height: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+footer a img{
+width: 40px;
+height: 45px;
+margin-top: 25px;
+margin-bottom: 0px;
+float: right;
+margin-right: 20px;
+}
+
+
+p{
+  
+    margin-right: 100px;
+    display: inline-block;
+     margin-top: 50px;
+     font-size: 15px;
+     float: left;
 }
 
 footer{

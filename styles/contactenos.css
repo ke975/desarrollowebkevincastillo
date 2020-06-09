@@ -55,6 +55,8 @@ body{
         margin-left: 0px;
         margin-bottom: 0px;
     }
+
+
     footer a img{
     width: 40px;
     height: 45px;
@@ -74,3 +76,14 @@ body{
          float: left;
     }
  
+ a{
+    text-decoration: none;
+    text-align: left;
+}
+
+     #contact{
+        
+     margin-top: 70px;
+        width: 40px;
+        height: 40px;
+    }
