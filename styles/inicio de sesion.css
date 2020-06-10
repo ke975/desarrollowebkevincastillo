@@ -1,11 +1,10 @@
 body{
-  background: url(https://us.123rf.com/450wm/saiful007/saiful0071711/saiful007171100586/90306025-vector-de-color-pastel-claro-fondo-de-cristal-poly-bajo-patr%C3%B3n-de-dise%C3%B1o-de-pol%C3%ADgono-fondo-de-ilustraci%C3%B3n-de-ba.jpg?ver=6)no-repeat;
-  height: 100vh;  
+  background-color:rgb(218, 154, 175); 
   width: 53%;
     height: 100%;
    
     margin-left: 220px;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 20px;
     }
     
@@ -50,7 +49,7 @@ body{
  }
 form{
  color: white;
-   margin-top: 40px;
+   margin-top: 10px;
    border-radius: 30px;
     margin-left: 250px;
     height: 500px;
@@ -82,10 +81,14 @@ text-align: center;
     margin-left:80px;
     margin-top: 30px;
     text-decoration: none;
-    color: white;
+    color:black;
+
 
 }
 
+#esquece a:hover{
+    background-color: palevioletred;
+}
 .input2{
  margin-left: 100px;
   border-radius: 20px;
@@ -99,23 +102,6 @@ text-align: center;
 
 
 
-footer{
-   
-margin-top: 155px;
-    width: 100%;
-    height: 100px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-}
-footer a img{
-width: 40px;
-height: 45px;
-margin-top: 25px;
-margin-bottom: 0px;
-float: right;
-margin-right: 20px;
-}
 
 
 p{
@@ -129,7 +115,7 @@ p{
 
 footer{
  
-margin-top: 155px;
+margin-top: 20px;
     width: 100%;
     height: 100px;
     margin-right: 0px;
@@ -144,7 +130,9 @@ margin-bottom: 0px;
 float: right;
 margin-right: 20px;
 }
-
+footer p{
+    color:black;
+}
 
 p{
   

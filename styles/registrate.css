@@ -154,7 +154,9 @@ h1{
     margin-top: 20px;
     color: white;
 }
-
+footer p{
+    color: white;
+}
 p{
   
     margin-right: 100px;
