@@ -1,10 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+
 body{
     background-color: white;
     width: 53%;
-    height: 100%;
+    height:100%;
     border:black solid 0.1px;
     margin-left: 220px;
-    margin-top: 20px;
+   
     margin-bottom: 20px;
     }
     
@@ -39,61 +45,58 @@ body{
        background-color:aliceblue;
        transition: 300ms;
     }
- #login{
-
-    height: 70px;
-    width: 70px;
-    
-    margin-left: 110px;
-    margin-top: 20px;
- }
-form{
- color: white;
-   margin-top: 40px;
-   border-radius: 30px;
-    margin-left: 250px;
-    height: 500px;
-    width: 350px;
-  
-   
-   background:url(https://lh3.googleusercontent.com/proxy/x44oktzd7MGQS21PMuCQdYH3GWQq143sZ35NbBd7rfblKZVOwCfEEHNc1q7eJj6EZK3HQqxxJzj7SHR4IQbAR9BL2AyA_Z-37Nb_iaAE)no-repeat;
-background-color: khaki;
-    
-}
-
-.input{
-    border-radius: 20px;
-    text-align: center;
- margin-left: 20px;
- height: 20px;
-    
-}
-
-.input1{
-
-border-radius:20px;
-height: 20px;
-text-align: center;
-}
-
-#esquece{
-    display: grid;
-    margin-left:80px;
+#input{
+    text-align: left;
     margin-top: 30px;
+}
+
+#Tel{
+    margin-top: 5px;
+}
+.prefiere{
+   
+    float: left;
+    margin:5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#enviar{
+margin-top: 15px;
+border-radius: 30px;
+margin-left: 200px;
+width: 50px;
+
+}
+
+input{text-align: center;
+margin-top: 10px;
+margin-left: 5px;
+}
+
+
+form{
+  background-color: khaki;
+display: grid;
+margin-top: 150px;
+border-radius: 30px;
+
+height: 100%;
+width: 100%;
+text-align: center;
+
+   
+}
+
+form a{
     text-decoration: none;
-    color: white;
-
+    color: black;
+    margin-top: -5px;
+    display: grid;
 }
 
-.input2{
- margin-left: 100px;
-  border-radius: 20px;
-  background-color: rgb(12, 246, 12);
-  width: 100px;
-}
-
-#email{
-  
+form a:hover{
+    color: darkviolet;
 }
 
 
@@ -128,7 +131,7 @@ p{
 
 footer{
     background-color: cyan;
-margin-top: 155px;
+margin-top: 487px;
     width: 100%;
     height: 100px;
     margin-right: 0px;

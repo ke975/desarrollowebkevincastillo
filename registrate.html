@@ -7,8 +7,8 @@
    <meta name="description" content="reparacion de pc">
 <meta name="keywords" content="repara computadores">
 <meta name = "author"   content ="kevin castillo"> 
-<link rel="stylesheet" href="styles/inicio de sesion.css">
-    <title>Inicio de Sesión</title>
+<link rel="stylesheet" href="styles/registrate.css">
+    <title>Registro</title>
 </head>
 <body>
 <header>
@@ -20,8 +20,8 @@
 <a href="index.html"><li>Inicio</li></a>
 <a href="Servicios.html"><li>Servicios</li></a>
 <a href="Contáctenos.html"><li>Contáctenos</li></a>
-<a href="Registro.html"><li>Registro</li></a>
-<a href="#"><li>Inicio de Sesión</li></a>
+<a href="#"><li>Registro</li></a>
+<a href="login.html"><li>Inicio de Sesión</li></a>
 <a href="Acerca de.html"><li>Acerca de</li></a>
 
 
@@ -37,18 +37,62 @@
 
 </header>
 
-
-<main>
-<form action="index.html" method="GET" >
-<img id="login"src="https://image.flaticon.com/icons/svg/2919/2919600.svg" alt="">
+<form action="login.html" method="Post">
+<div>
 <p id="email">Email
 <input class="input" type="email" name="email" id="" placeholder="escriba su email" required></p>
 <p id="senha">Contraseña 
 <input class="input1"type="password" name="password" id="" placeholder="contraseña" required></p>
-<p> <input class="input2" type="submit" value="entrar">
-<a id="esquece" href="">olvido su contraseña</a>
+<p>Teléfono<input type="tel" name="telefono" id="Tel"></p>
 
-</p>
+
+
+
+
+
+<select name="regiones" class="prefiere">
+<option value="">Selecione su region</option>
+<option value="enviar">León</option>
+<option value="enviar">Managua</option>
+<option value="enviar">Carazo</option>
+<option value="enviar">Costa Atlántica</option>
+</select>
+
+<select name="preferencias" class="prefiere" placeholder="seleccione lo que usted prefiere">
+<option value="">seleccione su preferencia</option>
+
+<option value="value1">Musica</option>
+<option value="Value2">peliculas</option>
+<option value="Value3">Programas</option>
+<option value="Value4">Documentos</option>
+
+
+</select>
+
+
+ <p>
+    Sexo:
+    <input type="radio" name="sexo" value="H" /> Hombre
+
+    <input type="radio" name="sexo" value="M" /> Mujer
+  </p>
+
+
+
+
+
+
+<p>Comentarios<input type="text" name="" id="input"></p>
+
+
+
+<p id="p"><input type="checkbox" name="Terminos " id="t">Acepta términos y condeiciones</p>
+
+
+<input type="submit" value="enviar" id="enviar">
+
+<a href="login.html">ya tienes una cuenta has login</a>
+</div>
 
 </form>
 <div>
@@ -63,6 +107,7 @@
   
      </footer>
        </div>
-</main>
+
+
 </body>
 </html>
