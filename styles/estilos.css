@@ -69,9 +69,12 @@ body{
      .p{
     display: inline-block;
     flex-direction: column;
-   
+   font-size: 15;
+   font-family: sans-serif;
  margin-top: -30px ;
-text-align: justify;
+text-align:justify;
+
+margin: 10,5,3,10px;
     
         
     }
