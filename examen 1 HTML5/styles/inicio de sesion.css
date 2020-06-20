@@ -74,7 +74,7 @@ height: 20px;
 text-align: center;
 }
 
-#esquece{
+#buscar{
     display: grid;
     margin-left:120px;
     margin-top: 30px;
@@ -84,8 +84,9 @@ text-align: center;
 
 }
 
-#esquece a:hover{
-    background-color:violet;
+#buscar a:hover{
+    background-color:aliceblue;
+    transition: 300ms;
 }
 .input2{
  margin-left: 140px;
@@ -100,6 +101,7 @@ text-align: center;
 
 #senha{
     margin-left: 30px;
+
 }
 
 

@@ -1,0 +1,41 @@
+@media(max-width:781px) and (min-width:200px) {
+
+header{
+    width: 500px;
+    background-color: cyan;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    display: grid;
+}
+
+@media(min-width:500px){
+    p{
+        color: aqua;
+        float: left;
+        width: 30%;
+    }
+}
+ 
+
+
+
+}
+
+@media (max-width:500px){
+    footer{
+background-color: darkcyan;
+width: 100%;
+    }
+}
+
+@media(max-width:1138px) and (min-width:300px){
+
+ iframe{
+     width: 100%;
+     text-align: center;
+     background-color: darkgreen;
+ }
+}
